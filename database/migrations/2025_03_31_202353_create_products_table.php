@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('category');
             $table->string('code')->nullable();
             $table->string('price_cost')->nullable();
-            $table->string('price_cost')->nullable();
             $table->enum('measure', ['kg', 'g', 'ml', 'l', 'un']);
             $table->boolean('stock')->default(true);
             $table->string('description')->nullable();
